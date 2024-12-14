@@ -8,17 +8,16 @@ import team from '../assets/team.png';
 import coreswap from '../assets/coreswap.png';
 import tele from '../assets/tele.png';
 import X from '../assets/X.png';
-import Aos from 'aos';
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tilt from 'react-parallax-tilt';
 
 export default function Home() {
 
     useEffect(() => {
-        Aos.init({
-            duration: 800,
+        AOS.init({
+            duration: 600,
         });
-        Aos.refresh();
     }, [])
 
     return (
@@ -40,8 +39,8 @@ export default function Home() {
 
                         <div className="lg:text-right lg:w-1/2 space-y-3">
 
-                            <div data-aos="fade-up" className='lg:float-right'>
-                                <img src={coreswap} alt='coreswap' className='pb-5 w-9/12 lg:float-right'></img>
+                            <div data-aos="fade-up" className='lg:flex items-end justify-end'>
+                                <img src={coreswap} alt='coreswap' className='pb-5 w-9/12 '></img>
                             </div>
 
                             <p data-aos='fade-out' className='lg:text-lg'>
