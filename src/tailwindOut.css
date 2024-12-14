@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Libre+Franklin:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: codecpro;
+    src: url(/public/CodecPRo/CodecPro-Bold.ttf)
+}
+
+@font-face {
+    font-family: codecpro-light;
+    src: url(/public/CodecPRo/CodecPro-Light.ttf)
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJ0YWlsd2luZE91dC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1JbnRlcjp3Z2h0QDMwMDs0MDA7NTAwOzYwMDs3MDA7ODAwJmZhbWlseT1MaWJyZStGcmFua2xpbjp3Z2h0QDMwMDs0MDA7NTAwOzYwMDs3MDA7ODAwJmRpc3BsYXk9c3dhcCcpO1xuQHRhaWx3aW5kIGJhc2U7XG5AdGFpbHdpbmQgY29tcG9uZW50cztcbkB0YWlsd2luZCB1dGlsaXRpZXM7XG5cbkBmb250LWZhY2Uge1xuICAgIGZvbnQtZmFtaWx5OiBjb2RlY3BybztcbiAgICBzcmM6IHVybCgvcHVibGljL0NvZGVjUFJvL0NvZGVjUHJvLUJvbGQudHRmKVxufVxuXG5AZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogY29kZWNwcm8tbGlnaHQ7XG4gICAgc3JjOiB1cmwoL3B1YmxpYy9Db2RlY1BSby9Db2RlY1Byby1MaWdodC50dGYpXG59Il19 */

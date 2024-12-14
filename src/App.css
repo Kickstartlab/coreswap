@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-visual {
+  background-image: url(./assets/visual.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% + 20px) calc(60% - 2px);
+}
+
+.bg-ai {
+  background-image: url(./assets/ai.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-roadmap {
+  background-image: url(./assets/roadmap.png);
+  background-repeat: no-repeat;
+  background-position: center top 150px;
+}
+
+.bg-team {
+  background-image: url(./assets/lights.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+.bg-footer {
+  background-image: url(./assets/bg-footer.png);
+  background-repeat: no-repeat;
+  background-position: center top 200px;
+}
+
+.shadow-inner-xl {
+  box-shadow: inset 0 -2px 4px rgba(213, 223, 20, 0.856)
+}
+
+/* ---Sidebar css */
+
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 50;
+  transition: 0.5s;
+  background-color: #0c0c0c;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sd-body {
+  padding: 15px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.sd-body ul li .sd-link {
+  display: inline-block;
+  width: 100%;
+  padding: 8px 15px;
+  color: #e5e8ec;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 500;
+  background-color: #f99215;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-footer {
+    background-image: url(./assets/bg-footer.png);
+    background-repeat: no-repeat;
+    background-position: center top 200px;
+    background-size: contain;
+  }
+
+  .bg-team {
+    background-image: url(./assets/lights.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+  }
+  
+}
