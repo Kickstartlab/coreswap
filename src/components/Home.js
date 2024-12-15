@@ -63,21 +63,21 @@ export default function Home() {
                                 <div className='flex items-center lg:justify-end mt-8 md:gap-4 gap-3'>
 
                                     <Tilt>
-                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
+                                        <button className='border-2 border-yellow-100 py-2 sm:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
                                             Swap
                                             <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
                                     </Tilt>
 
                                     <Tilt>
-                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
+                                        <button className='border-2 border-yellow-100 py-2 sm:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
                                             CSAI
                                             <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
                                     </Tilt>
 
                                     <Tilt>
-                                        <button className='border border-yellow-100 py-2 md:px-8 px-1 lg:text-lg text-center tracking-wide bg-gradient-to-br from-yellow-100 via-black-50 to-black-100 rounded-tl-xl rounded-br-xl md:text-lg text-sm'>
+                                        <button className='border border-yellow-100 py-2 sm:px-8 px-1 lg:text-lg text-center tracking-wide bg-gradient-to-br from-yellow-100 via-black-50 to-black-100 rounded-tl-xl rounded-br-xl md:text-lg text-sm'>
                                             Play
                                             <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
