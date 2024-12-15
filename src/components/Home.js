@@ -50,11 +50,11 @@ export default function Home() {
                             </p>
 
                             <div data-aos='zoom-in' className="flex items-end lg:justify-end gap-6 mx-auto">
-                                <a href="/" className='mt-5'>
+                                <a href="https://x.com/CORESwapAI" className='mt-5'>
                                     <img data-aos="zoom-in" src={X} alt='X' className='w-14'></img>
                                 </a>
 
-                                <a href="/">
+                                <a href="https://t.me/CORESwapChat">
                                     <img data-aos="zoom-in" src={tele} alt='telegram' className='w-14'></img>
                                 </a>
                             </div>
@@ -63,22 +63,23 @@ export default function Home() {
                                 <div className='flex items-center lg:justify-end mt-8 md:gap-4 gap-3'>
 
                                     <Tilt>
-                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-2 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
+                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
                                             Swap
                                             <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
                                     </Tilt>
 
                                     <Tilt>
-                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-2 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
+                                        <button className='border-2 border-yellow-100 py-2 md:px-8 px-1 md:text-lg text-sm text-center tracking-wide rounded-tl-xl rounded-br-xl'>
                                             CSAI
                                             <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
                                     </Tilt>
 
                                     <Tilt>
-                                        <button className='border border-yellow-100 font-bold py-4 md:px-12 px-5 lg:text-lg text-center tracking-wide bg-gradient-to-br from-yellow-100 via-black-50 to-black-100 rounded-tl-xl rounded-br-xl'>
+                                        <button className='border border-yellow-100 py-2 md:px-8 px-1 lg:text-lg text-center tracking-wide bg-gradient-to-br from-yellow-100 via-black-50 to-black-100 rounded-tl-xl rounded-br-xl md:text-lg text-sm'>
                                             Play
+                                            <p className='text-xs italic font-extralight text-white-50'>(Coming Soon)</p>
                                         </button>
                                     </Tilt>
 
@@ -111,10 +112,6 @@ export default function Home() {
                                     We’re building an AI Ecosystem on CORE Chain where
                                     your dreams get turned into reality with a few taps.
                                 </p>
-
-                                <button data-aos="fade-left" className='border-2 border-white-50 py-4 md:px-8 px-5 italic font-extralight text-white-50 text-center rounded-tl-xl rounded-br-xl bg-black-100'>
-                                    (Coming Soon)
-                                </button>
                             </div>
 
 
@@ -207,9 +204,8 @@ export default function Home() {
                                     Phase 1:
                                 </h4>
                                 <ul className='p-3 list-disc'>
-                                    <li>Launch of</li>
-                                    <li>Telegram MiniApp</li>
-                                    <li>Airdrop</li>
+                                    <li>Launch of X</li>
+                                    <li>Launch of telegram</li>
                                 </ul>
                             </div>
 
@@ -248,9 +244,8 @@ export default function Home() {
                                     Phase 1:
                                 </h4>
                                 <ul className='p-3 text-sm list-disc'>
-                                    <li>Launch of</li>
-                                    <li>Telegram MiniApp</li>
-                                    <li>Airdrop</li>
+                                    <li>Launch of X</li>
+                                    <li>Launch of telegram</li>
                                 </ul>
                             </div>
 

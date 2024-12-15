@@ -24,12 +24,11 @@ export default function Footer() {
         </div>
 
         <div className='flex items-start justify-center mx-auto gap-8 mt-6'>
-          <div data-aos="zoom-in">
+          <a href='https://t.me/CORESwapChat' data-aos="zoom-in">
             <img src={icon_1} alt='twitter' className='w-16 mx-auto'></img>
-            <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
-          </div>
+          </a>
 
-          <a href='/'><img data-aos="zoom-in" src={icon_2} alt='telegram' className='w-16'></img></a>
+          <a href='https://x.com/CORESwapAI'><img data-aos="zoom-in" src={icon_2} alt='telegram' className='w-16'></img></a>
         </div>
 
         <div className='lg:mt-36 mt-12 lg:translate-y-6'>
@@ -37,7 +36,7 @@ export default function Footer() {
           <p className='text-center lg:text-lg pt-3 text-white-50 tracking-wider'>Where SocialFi Meets CORE</p>
         </div>
 
-        <div className='flex flex-wrap mx-auto justify-center items-center text-center mt-12'>
+        <div className='flex flex-wrap mx-auto justify-center text-center mt-12'>
           <p className="border md:py-6 py-4 md:px-8 px-5 flex flex-col lg:text-xl tracking-wider bg-gradient-to-t from-yellow-100 via-black-50 to-black-100">
             Play
             <span className='text-xs font-extralight text-white-50 pt-1'>@CORESwapAI</span>
@@ -46,14 +45,12 @@ export default function Footer() {
             Swap
             <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
           </p>
-          <p className="border md:py-6 py-4 md:px-8 px-5 flex flex-col lg:text-xl tracking-wider">
+          <a href='https://x.com/CORESwapAI' className="border md:py-6 py-4 md:px-8 px-5 lg:text-xl tracking-wider flex flex-col justify-center items-center">
             Twitter
-            <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
-          </p>
-          <p className="border md:py-6 py-4 md:px-8 px-5 flex flex-col lg:text-xl tracking-wider">
+          </a>
+          <a href='https://t.me/CORESwapChat' className="border md:py-6 py-4 md:px-8 px-5 lg:text-xl tracking-wider flex flex-col justify-center items-center">
             Telegram
-            <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
-          </p>
+          </a>
           <p className="border md:py-6 py-4 md:px-8 px-5 flex flex-col lg:text-xl tracking-wider">
             Documentation
             <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
