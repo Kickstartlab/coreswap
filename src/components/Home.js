@@ -50,7 +50,7 @@ export default function Home() {
                             </p>
 
                             <div data-aos='zoom-in' className="flex items-end lg:justify-end gap-6 mx-auto">
-                                <a href="https://x.com/CORESwapAI" className='mt-5'>
+                                <a href="https://x.com/core_swapAI" className='mt-5'>
                                     <img data-aos="zoom-in" src={X} alt='X' className='w-14'></img>
                                 </a>
 

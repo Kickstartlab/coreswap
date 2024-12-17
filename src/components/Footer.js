@@ -28,7 +28,7 @@ export default function Footer() {
             <img src={icon_1} alt='twitter' className='w-16 mx-auto'></img>
           </a>
 
-          <a href='https://x.com/CORESwapAI'><img data-aos="zoom-in" src={icon_2} alt='telegram' className='w-16'></img></a>
+          <a href='https://x.com/core_swapAI'><img data-aos="zoom-in" src={icon_2} alt='telegram' className='w-16'></img></a>
         </div>
 
         <div className='lg:mt-36 mt-12 lg:translate-y-6'>
@@ -45,7 +45,7 @@ export default function Footer() {
             Swap
             <span className='text-xs italic font-extralight text-white-50 pt-1'>(Coming Soon)</span>
           </p>
-          <a href='https://x.com/CORESwapAI' className="border md:py-6 py-4 md:px-8 px-5 lg:text-xl tracking-wider flex flex-col justify-center items-center">
+          <a href='https://x.com/core_swapAI' className="border md:py-6 py-4 md:px-8 px-5 lg:text-xl tracking-wider flex flex-col justify-center items-center">
             Twitter
           </a>
           <a href='https://t.me/CORESwapChat' className="border md:py-6 py-4 md:px-8 px-5 lg:text-xl tracking-wider flex flex-col justify-center items-center">
